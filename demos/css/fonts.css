@@ -1,0 +1,39 @@
+@font-face {
+  font-family: font1;
+  src: url(font/alex.ttf);
+
+}
+@font-face {
+  font-family: font2;
+  src: url(font/austel.otf);
+ 
+}
+@font-face {
+  font-family: font3;
+  src: url(font/clay.otf);
+  src: url(font/clay.ttf);
+ 
+}
+@font-face {
+  font-family: font4;
+  src: url(font/domili.otf);
+
+ 
+}
+@font-face {
+  font-family: font5;
+  src: url(font/ice.otf);
+  src: url(font/ice.ttf);
+ 
+}
+@font-face {
+  font-family: font6;
+  src: url(font/read.otf);
+  src: url(font/read.ttf);
+ 
+}
+@font-face {
+  font-family: font7;
+  src: url(font/shutup.otf);
+ 
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style type="text/css">
+			*{
+				font-family:arial;
+			}	
+			a{
+				text-decoration:none;
+				color:black;
+			}
+			.sidebr{
+				background: yellow;
+				height:100%;
+				transition:0.5s;
+			}
+			#sidebar{
+			width:0px;
+			display:none;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<a href="#" id="bttn-sidebar1" onclick="openSidebar()">&#9776;</a>
+		<div id="sidebar" class="sidebr">
+			<span> <a href="#" onclick="closeSidebar()">&times;</a> </span>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Completed</a></li>
+				<li><a href="#">On Going</a></li>
+			</ul>	
+		</div>
+		
+		<script>
+			function openSidebar(){
+				document.getElementById('sidebar').style.width='200px';
+				document.getElementById('sidebar').style.display ='block';
+				document.getElementById('bttn-sidebar1').style.display ='none';
+			}
+			function closeSidebar(){
+				document.getElementById('sidebar').style.width='0px';
+				document.getElementById('sidebar').style.display ='none';
+				document.getElementById('bttn-sidebar1').style.display ='block';
+			}
+			
+		</script>
+	</body>
+</html>
